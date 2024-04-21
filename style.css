@@ -1,0 +1,36 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-bth {
+  margin-top: 30px;
+}
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.work {
+  padding-bottom: 94px;
+}
+.work-title {
+  margin-bottom: 50px;
+}
+.team {
+  padding-top: 94px;
+}
+.team-title {
+  margin-bottom: 50px;
+}
+.team-list-text {
+  margin-top: 10px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address {
+  margin-bottom: 30px;
+}
+.address-list-item {
+  margin-bottom: 9px;
+}
