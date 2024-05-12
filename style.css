@@ -250,3 +250,20 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+.portfolio-list-item {
+  outline: 1px solid #eeeeee;
+}
+.portfolio-list-text-wrap {
+  padding: 20px 24px;
+}
+.filter-list-btn {
+  padding: 6px 22px;
+}
+.filter-list-btn:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.nav-list-link:hover,
+.contact-list-link:hover {
+  color: #2196f3;
+}
