@@ -264,7 +264,7 @@
 .portfolio-list-move {
   padding: 24px 20px;
 }
-.portfolio-link:hover .portfolio-overlay-desc {
+.portfolio-list-link:hover .portfolio-overlay-desc {
   transform: translateY(0);
 }
 .portfolio-overlay-desc {
