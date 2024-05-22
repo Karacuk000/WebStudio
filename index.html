@@ -67,27 +67,27 @@
       <section class="features">
         <div class="container">
           <ul class="features-list">
-            <li class="features-list-item">
+            <li class="features-list-item-one">
               <h3 class="features-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="features-list-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="features-list-item">
+            <li class="features-list-item-two">
               <h3 class="features-list-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="features-list-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="features-list-item">
+            <li class="features-list-item-three">
               <h3 class="features-list-title">ПЛАНУВАННЯ</h3>
               <p class="features-list-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="features-list-item">
+            <li class="features-list-item-four">
               <h3 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="features-list-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -102,13 +102,23 @@
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-list-item">
-              <img src="./person/box 1.png" alt="" />
+              <div class="work-list-wrap">
+                <img src="./person/box 1.png" alt="" class="work-list-img" />
+                <p class="work-list-desc">Десктопні додатки</p>
+            </div>
             </li>
             <li class="work-list-item">
-              <img src="./person/box 3.png" alt="" />
+              <img src="./person/box 3.png" alt="" class="work-list-img" />
+              <div class="work-list-wrap">
+              <p class="work-list-desc">Мобільні додатки</p>
+            </div>
             </li>
             <li class="work-list-item">
-              <img src="./person/img.png" alt="" />
+              <div class="work-list-wrap">
+                <img src="./person/img.png" alt="" class="work-list-img" />
+                <p class="work-list-desc">Дизайнерські рішення</p>
+              
+            </div>
             </li>
           </ul>
         </div>
@@ -269,42 +279,53 @@
         </div>
       </section>
       <section class="client">
-        <div class="clients">
-        <h1 class="client-list-title">Постійні клієнти</h1>
-        <div class="client-list">
+        <div class="container">
+        <h2 class="client-list-title">Постійні клієнти</h2>
          <ul class="client-list-item">
-          <li>
-            <a href="" class="client-list-item-wrap"></a>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
             <svg width="84" height="40" class="client-list-svg">
               <use href="./symbol-defs.svg#icon-group-1"></use>
             </svg>
+          </a>
           </li>
-          <li>
-            <a href="" class="client-list-item-wrap"></a>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
             <svg width="84" height="40" class="client-list-svg">
               <use href="./symbol-defs.svg#icon-group-2"></use>
             </svg>
+          </a>
           </li>
-          <li>
-            <a href="" class="client-list-item-wrap"></a>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
             <svg width="84" height="40" class="client-list-svg">
               <use  href="./symbol-defs.svg#icon-group-3"></use>
             </svg>
+          </a>
           </li>
-          <li>
-            <a href="" class="client-list-item-wrap"></a>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
             <svg width="84" height="40" class="client-list-svg">
               <use  href="./symbol-defs.svg#icon-group-4"></use>
             </svg>
+          </a>
           </li>
-          <li>
-            <a href="" class="client-list-item-wrap"></a>
-            <svg width="84" height="40" class="client-list-svg">
-              <use  href="./symbol-defs.svg#icon-group-5"></use>
-            </svg>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
+              <svg width="84" height="40" class="client-list-svg">
+                <use  href="./symbol-defs.svg#icon-group-5"></use>
+              </svg>
+            </a>
+           
+          </li>
+          <li class="client-list-item-ico">
+            <a href="" class="client-list-item-wrap">
+              <svg width="84" height="40" class="client-list-svg">
+                <use href="./symbol-defs.svg#icon-group"></use>
+              </svg>
+            </a>
           </li>
          </ul>
-        </div>
       </div>
       </section>
     </main>
@@ -364,6 +385,7 @@
               </a>
             </li>
           </ul>
+        </div>
           <div class="footer-form-div">
             <div class="footer-form-div2">
             <h6 class="footer-form-title">Підпішиться на розсилку</h6>
@@ -372,8 +394,9 @@
               <button class="footer-form-bth" type="submit">Підписатися</button>
             </form>
           </div>
+
         </div>
-      </div>
+      
      </div>
     </footer>
   </body>
