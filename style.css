@@ -524,7 +524,6 @@
 }
 .modal-btn-close {
   position: absolute;
-  padding: 6px;
   top: 14px;
   right: 14px;
   background-color: inherit;
@@ -628,8 +627,8 @@ textarea {
 .modal-svg {
   fill: currentColor;
   position: absolute;
-  top: 0px;
-  left: 12px;
+  top: 4px;
+  left: 13px;
 }
 .input-name,
 .input-email,
@@ -655,4 +654,8 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
